@@ -1,1 +1,1 @@
-web: gunicorn com-app-django.wsgi --log-file -
+web: gunicorn crm-app.wsgi --log-file -
