@@ -1,1 +1,1 @@
-web: gunicorn crm_app.wsgi
+web: gunicorn crm_app.wsgi --bind 0.0.0.0:$PORT
